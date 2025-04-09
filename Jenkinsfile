@@ -10,7 +10,7 @@ pipeline {
             steps {
                 checkout([$class: 'GitSCM',
                           branches: [[name: '*/main']],
-                          userRemoteConfigs: [[url: 'https://github.com/username/repo.git']]
+                          userRemoteConfigs: [[url: 'https://github.com/harshit-ksolves/test-repo']]
                          ])
             }
         }
